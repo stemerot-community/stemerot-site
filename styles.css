@@ -1,0 +1,146 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    color: #4CAF50;
+    text-align: center;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #4CAF50;
+}
+
+/* Landing Section */
+.landing {
+    background: url('landing-image-placeholder.jpg') no-repeat center center/cover;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.landing h2 {
+    font-size: 36px;
+    color: white;
+}
+
+.landing p {
+    font-size: 18px;
+    color: white;
+}
+
+.image-placeholder {
+    background-color: #ddd;
+    height: 300px;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #888;
+}
+
+/* About Section */
+.about {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Under Construction Section */
+.under-construction {
+    background-color: #fff3cd;
+    padding: 40px 0;
+}
+
+.under-construction p {
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #f4f4f4;
+    padding: 40px 0;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #45a049;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
