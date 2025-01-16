@@ -1,1 +1,0 @@
-# stemerot-site
